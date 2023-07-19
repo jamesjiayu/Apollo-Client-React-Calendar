@@ -29,9 +29,9 @@ function DisplayLocations() {
 export default function App() {
   return (
     <div>
-      <DisplayLocations />
       <APICaller />
-      <br /> <Calendar2 />
+      <Calendar2 />
+      <DisplayLocations />
     </div>
   );
 }
