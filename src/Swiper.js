@@ -13,3 +13,4 @@ const Swiper1 = () => {
     </div>
   );
 };
+export default Swiper1;
