@@ -4,7 +4,7 @@ import 'swiper/css';
 const Swiper1 = () => {
   return (
     <div>
-      <Swiper>
+      <Swiper className="mySwiper">
         <SwiperSlide>slide1</SwiperSlide>
         <SwiperSlide>slide2</SwiperSlide>
         <SwiperSlide>slide3</SwiperSlide>
