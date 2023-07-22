@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 const url = `https://www.reddit.com/r/reactjs.json`;
 
 export default class APICaller extends Component {
