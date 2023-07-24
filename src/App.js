@@ -3,7 +3,7 @@ import React from 'react';
 import './style.css';
 import { Calendar2 } from './Calendar2';
 import APICaller from './APICaller';
-import Swiper1 from './Swiper.js';
+
 const GET_LOCATIONS = gql`
 query GetLocations{ locations {
   id
