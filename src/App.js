@@ -3,7 +3,6 @@ import React from 'react';
 import './style.css';
 import { Calendar2 } from './Calendar2';
 import APICaller from './APICaller';
-
 const GET_LOCATIONS = gql`
 query GetLocations{ locations {
   id
@@ -29,7 +28,6 @@ function DisplayLocations() {
 export default function App() {
   return (
     <div>
-      <Swiper1 />
       <APICaller />
       <Calendar2 />
       <DisplayLocations />
