@@ -19,7 +19,7 @@ export default class APICaller extends Component {
 /*
 v 16
 React.render(
-  // <APICaller />
+  // <APICaller /> 
   document.getElementById('myaplicaller')
 );
 */
